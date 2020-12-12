@@ -81,6 +81,7 @@ bucket内slot使用完之后使用公共缓存池
     * kv写缓存：3.12G
 * 最优耗时：38.627s（Init阶段90ms，Set阶段24.5s，Get阶段不到14.1s）
 * 最终排名：第1名
+
     <img src="https://i.postimg.cc/VNYQPBR9/4.png" width="600px"/>
 
 
@@ -309,6 +310,7 @@ get操作流程图如下所示。
 * 缓存命中率和hash效果同初版方案
 * 最优耗时：35.8s（set阶段27.1s，get阶段8.7s）
 * 最终排名：第3名
+    
     <img src="https://i.postimg.cc/v86QzhSD/21.png" width="600px"/>
 
 #### 3.4.5 其他优化
